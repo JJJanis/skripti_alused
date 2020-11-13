@@ -3,4 +3,7 @@
 # kasutaja tervitus
 # autor - Janis Jaaniste
 #
-echo "Tere, kasutaja!"
+kasutaja_nimi=$(whoami)
+echo -n  "Tere, "
+echo -n $(whoami)
+echo "!"
