@@ -23,3 +23,10 @@ git commit -m "muudatuse kirjeldus"
 b) muudatuse uurimine
 git log
 git show commiti_hash
+
+5. Remote kasutamine
+a) github repo ühenduse lisamiseks
+git remote add origin https://github.com/JJJanis/skripti_alused.git
+
+b) lokaalse sisu lükkamine githubi
+git push -u origin master
